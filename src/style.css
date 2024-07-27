@@ -38,7 +38,7 @@ main {
   border: 2px solid #333;
   border-radius: 5px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 15px;
   position: relative;
   overflow: hidden;
@@ -47,7 +47,7 @@ main {
 }
 
 .card.expanded {
-  max-height: 1000px; /* Untuk konten yang diperluas */
+  max-height: 100%; /* Untuk konten yang diperluas */
 }
 
 .card:hover {
